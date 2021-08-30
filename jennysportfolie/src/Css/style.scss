@@ -1,0 +1,24 @@
+@import "portfolio";
+@import "nav";
+@import "about";
+@import "contact";
+@import "effects";
+@import "musicBox";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Amiri', serif;
+}
+
+body, html{
+    height: 100vh;
+}

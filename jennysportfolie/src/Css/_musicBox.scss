@@ -1,0 +1,28 @@
+.musicContainer{
+    display: grid;
+    grid-template-columns: 10% 40% auto 10%;
+    grid-template-rows: 20% 60%;
+    padding: 2em;
+    border: 1px solid black;
+    h2{
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        padding-bottom: 1em;
+        
+    }
+    video{
+        grid-column-start: 1;
+        grid-row-start: 2;
+        width:550px;
+        max-height:350px;
+        background: black;
+
+    }
+    p{
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 2;
+
+    }
+}
