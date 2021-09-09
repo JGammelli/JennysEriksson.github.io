@@ -1,33 +1,94 @@
+#aboutProfile{
+    background: url("../Images/aboutProfile.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    order: 1;
+    background-attachment: fixed;
+    background-position: center;
+
+    display: grid;
+    grid-template-columns: repeat(8, 20em);
+    grid-template-rows: repeat(20, 10em);
+}
+
 #aboutSection{
     order: 4;
     background: url("../Images/background.png");
     width: 100vw;
     position: relative;
-    color: white;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+
 }
 
 #aboutContainer{
     display: grid;
-    grid-template-columns: repeat(5, 20%);
-    grid-template-rows: repeat(4, 25vh);
+    grid-template-columns: repeat(8, 15em);
+    grid-template-rows: repeat(20, 10em);
+    p{
+        font-size: 1.3em;
+    }
+    h1{
+        font-size: 2em;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+}
+.aboutName{
+    position: absolute;
+    grid-column-start:3;
+    grid-row-start: 3;
+    h1{
+        font-size: 3.5em;
+        margin-bottom: 0.5em;
+    }
+    h2{
+        font-size: 2.5em;
+        margin-bottom: 1em;
+    }
+    p{
+        font-size: 1.8em;
+    }
 }
 
 #aboutBox{
     grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 2;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
 
-#educationBox{
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 4;
+.educationBox{
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.educationBox2{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 10;
+    grid-row-end: 11;
+}
+
+.educationBox3{
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 14;
+    grid-row-end: 15;
+}
+.educationBox4{
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 18;
+    grid-row-end: 19;
 }
 

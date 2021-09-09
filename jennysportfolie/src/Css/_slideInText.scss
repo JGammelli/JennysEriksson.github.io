@@ -1,0 +1,15 @@
+//Effects for text in about me + contact
+
+.span{
+    transform: translateY(200%);
+}
+
+.gap{
+    width:1rem;
+}
+
+.span.active{
+    transform: translateY(0%);
+    transition: 1s ease-out;
+}
+

@@ -4,8 +4,17 @@ class Contact extends React.Component{
     render(){
         return(
             <section id="contactSection">
-
-                <h1>Contact, mail: eriksson.jenny97@gmail.com</h1>
+                <div className="contactBox">
+                    <p>Get in touch!</p>
+                    <h1>Contact</h1>
+                </div>
+                <div className="contactInfo">
+                <p>Email: eriksson.jenny97@gmail.com</p>
+                </div>
+                <div className="siteByInfo">
+                    <h4>Site by</h4>
+                    <p>Judith Gammelli</p>
+                </div>
             </section>
         );
     }

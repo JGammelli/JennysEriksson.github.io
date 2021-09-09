@@ -1,22 +1,80 @@
 import React from "react";
 
 class About extends React.Component{
+
+
     render(){
+        
         return(
+            <>
+            <section id="aboutProfile">
+                <div id="nameBox" className="aboutName">
+                    <h2>About</h2>
+                    <h1>Jenny Eriksson</h1>
+                    <p>Composer</p>
+                </div>             
+              </section>
             <section id="aboutSection">
                 <div id="aboutContainer">
-                    <div id="aboutBox">
-                        <h1>Hi, I'm Jenny! I come from Sweden and my passion is music and to compose it.</h1>
-                        <p>I have alwaysed been obsessed with music, and I always knew I wanted to work with it.
-                            Some more text about dear Jenny. irgwe ewfg gr gwr gw gr wrgrwijgi wgiwrj gwpirj g
+                    <h1 className="textReveal">Hi, I’m Jenny!</h1>
+                    <div id="aboutBox">                      
+                        <h3 className="textReveal">
+                            I discovered music in the gymnasium, when I studied Music Production, 
+                            and I’ve kept doing music ever since.                          
+                        </h3>
+                        <p className="textReveal">
+                            I love the variety of making different kinds of music, 
+                            I can make both orchestral and digital musical compositions, pop, rock, ballads and more! 
+                            I’m currently studying at the University of Skövde, Game Development- Music, third and last year.
+                        </p>                 
+                    </div>
+                    <div className="educationBox">
+                        <h3 className="textReveal">
+                            During gymnasium we mostly focused on the recording studio, 
+                            us Music Production students got to learn how to set up a recording, 
+                            how to prepare for live shows, and a little bit of how to specifically mix in Logic Pro X.
+                        </h3>
+                    </div>
+                    <div className="educationBox2">
+                        <h3 className="textReveal">
+                            Later I studied two courses in Umeå, Creative Music (songwriting) and Music Production.
+                        </h3>
+                    
+                        <p className="textReveal"> 
+                            During both courses I got more experiences regarding communication with the musician, 
+                            while asking several different musicians to play their respective instruments for several of my songs. 
+                            We also learned more about mixing, and a little bit about mastering, and had a task to put at least one 
+                            song on an online platform like Spotify, Youtube, Soundcloud, and more.
                         </p>
                     </div>
-                    <div id="educationBox">
-                        <h2>I have studied music in hmm hmm years.</h2>
-                        <p>For my whole grown up life I have studied and composed musik. I studied this and that and done this and bla bla.</p>
+                    <div className="educationBox3">
+                        <h3 className="textReveal">
+                            I also studied a course named Musikproducentlinjen in Löftadalens folkhögskola, 
+                            where I learned the most about mixing and mastering, and feel like I found my favorite 
+                            type of music to create (my unique tune).
+                        </h3>
+                        <p className="textReveal">
+                            That is where the Maze Runner Trailer comes from, 
+                            as it was a task to compose music for the chosen trailer. Every other week we were supposed 
+                            to show what we had done, and get feedback from the rest of the class, which taught me how to 
+                            stay productive in such a creative area for so long, and how to come up with new ideas in a short period of time.
+                        </p>
+                    </div>
+                    <div className="educationBox4">
+                        <h3 className="textReveal">
+                            And finally, University of Skövde where I currently study Gamedevelopment- Music, was an education I had longed for, 
+                            since I wanted a more serious education and more specifically wanted to focus on music for games.
+                        </h3>
+                        <p className="textReveal">
+                            And finally, University of Skövde where I currently study Gamedevelopment- Music, was an education I had longed for, 
+                            since I wanted a more serious education and more specifically wanted to focus on music for games. Here it has 
+                            been mostly academic courses, but during the game projects I learned how to communicate with people of other disciplines, 
+                            and generally witnessed the process of how games are created.
+                        </p>
                     </div>
                 </div>
             </section>
+            </>
         );
     }
 }

@@ -1,29 +1,44 @@
 #profileSection{
-    background: url("../Images/profile.png");
+    background: url("../Images/profile.jpg");
     background-size: cover;
     width: 100vw;
     height: 100vh;
     position: relative;
     order: 1;
     background-attachment: fixed;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(8, 20em);
+    grid-template-rows: repeat(20, 10em);
+    h1,h2,p{
+        color: black;
+    }
 }
 
 #portfolieSection{
     background: url("../Images/background.png");
     order: 3;
     position: relative;
-
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#nameBox{
-    top: 50%;
-    left: 50%;     
-    transform: translate(-50%, -50%);
+.portfolieName{
     position: absolute;
-    
+    grid-column-start: 2;
+    grid-row-start: 3;
+    h1{
+        font-size: 3.5em;
+        margin-bottom: 0.5em;
+    }
+    h2{
+        font-size: 2.5em;
+        margin-bottom: 1em;
+    }
+    p{
+        font-size: 1.8em;
+    }
 }
 

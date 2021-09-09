@@ -4,6 +4,7 @@
 @import "contact";
 @import "effects";
 @import "musicBox";
+@import "slideInText";
 
 *{
     margin: 0;
@@ -16,7 +17,16 @@
 }
 body{
     overflow-x: hidden;
-    font-family: 'Amiri', serif;
+    font-family: 'Playfair Display', serif;
+    color: rgb(243, 243, 243);
+
+    letter-spacing: 0.2em;
+    line-height: 2.5em;
+
+    h1, h2,h4,p{
+        font-weight: 100;
+
+    }
 }
 
 body, html{

@@ -1,15 +1,44 @@
 #contactSection{
     order: 5;
     background: url("../Images/background.png");
-    background-size: cover;
     width: 100vw;
     height: 100vh;
-    position: relative;
-    color: white;
-
-    position: relative;
+    position: absolute;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    display: grid;
+    grid-template-columns: repeat(10, 10em);
+    grid-template-rows: repeat(10, 10vh);
+   
+}
+
+.contactBox{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    h1{
+        font-size: 2em;
+    }
+
+}
+
+.contactInfo{
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    p{
+        font-size:1.3em;
+    }
+}
+
+.siteByInfo{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end: 9;
 }
