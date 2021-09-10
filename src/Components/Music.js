@@ -89,7 +89,6 @@ const data = [
 ]
 class Music extends React.Component{
     render(){
-        console.log(typeof Data[1].file);
         return (
         data.map((music, index) =><MusicBox key={index} title={music.title} information={music.information} file={music.file} image={music.image}/>)
         );
