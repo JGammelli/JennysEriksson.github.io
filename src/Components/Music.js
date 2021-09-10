@@ -1,5 +1,4 @@
 import React from "react";
-import Data from "../music/music.json";
 import MusicBox from "./MusicBox";
 
 const data = [
