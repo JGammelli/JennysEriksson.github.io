@@ -17,11 +17,11 @@ const data = [
         file: require("../music/Wonder.mov").default,
         information: "This was a project I got invited to, to make the music. My description was to make it sound japanese, and it was supposed to be serious. The sound effect was not made by me."
     },
-    {
-        title: "Triquetra",
-        file: require("../music/Triquetra.mov").default,
-        information: "This movie is about a girl finding an amulett, and later realizing the power it bestows, alongside the danger that comes with it. I volunteered to make music for this movie, and the description I got was about making it sound Celtic. Sounds were made by Simon Johansson, Miriam Lewi and Rickard Söderholm. The highlights of the music from this movie are at 10.28 and 20.24."
-    },
+    // {
+    //     title: "Triquetra",
+    //     file: require("../music/Triquetra.mov").default,
+    //     information: "This movie is about a girl finding an amulett, and later realizing the power it bestows, alongside the danger that comes with it. I volunteered to make music for this movie, and the description I got was about making it sound Celtic. Sounds were made by Simon Johansson, Miriam Lewi and Rickard Söderholm. The highlights of the music from this movie are at 10.28 and 20.24."
+    // },
     {
         title: "Array’s theme",
         file: require("../music/Arraystheme.wav").default,
