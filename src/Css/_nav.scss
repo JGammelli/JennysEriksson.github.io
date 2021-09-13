@@ -1,5 +1,7 @@
+@import "colorVariable";
+
 #nav{
-    background-color: rgb(14, 14, 14);
+    background-color: $black;
     order: 2;
     z-index: 10;
     box-shadow: rgba(0, 0, 0, 0.219) 0px 50px 50px 7px;
@@ -16,12 +18,12 @@
   
     a{
         text-decoration: none;
-        color: rgb(235, 221, 209);
+        color: $white;
         font-size: 2em;
         
     }
     a:hover{
-        color: rgba(235, 221, 209, 0.116);
+        color: $hover;
     }
    
 

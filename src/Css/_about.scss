@@ -1,3 +1,5 @@
+@import "colorVariable";
+
 #aboutProfile{
     background: url("../Images/aboutProfile.jpg");
     background-size: cover;
@@ -12,7 +14,7 @@
     grid-template-columns: repeat(8, 20em);
     grid-template-rows: repeat(20, 10em);
 
-    color: rgb(241, 241, 241);
+    color: $white;
     
    
 }
@@ -38,18 +40,24 @@
 
 #aboutContainer{
     display: grid;
-    grid-template-columns: repeat(8, 15em);
-    grid-template-rows: repeat(20, 10em);
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(21, 10em);
     p{
         font-size: 1.3em;
     }
     h1{
         font-size: 2em;
         grid-column-start: 2;
-        grid-column-end: 2;
+        grid-column-end: 4;
         grid-row-start: 3;
         grid-row-end: 3;
+        align-self: center;
+        justify-self: center;
+        background: $black;
+        color: $white;
+
     }
+    
 }
 .aboutName{
     position: absolute;
@@ -66,40 +74,54 @@
     p{
         font-size: 1.8em;
     }
+    
 }
 
 #aboutBox{
     grid-column-start: 2;
-    grid-column-end: 6;
-    grid-row-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 5;
     grid-row-end: 5;
 
 }
 
 .educationBox{
-    grid-column-start: 5;
-    grid-column-end: 8;
-    grid-row-start: 7;
+    grid-column-start: 6;
+    grid-column-end: 10;
+    grid-row-start: 8;
     grid-row-end: 8;
+
 }
 
 .educationBox2{
     grid-column-start: 2;
-    grid-column-end: 6;
-    grid-row-start: 10;
-    grid-row-end: 11;
+    grid-column-end: 7;
+    grid-row-start: 11;
+    grid-row-end:11;
+
 }
 
 .educationBox3{
     grid-column-start: 4;
-    grid-column-end: 8;
-    grid-row-start: 14;
+    grid-column-end: 10;
+    grid-row-start: 15;
     grid-row-end: 15;
+   
 }
 .educationBox4{
     grid-column-start: 2;
-    grid-column-end: 7;
-    grid-row-start: 18;
+    grid-column-end: 8;
+    grid-row-start: 19;
     grid-row-end: 19;
+   
+}
+
+.educationBox4,.educationBox3,.educationBox2,.educationBox,#aboutBox,.aboutItem{
+    background-color: $black;
+    color: $white;
+    align-self: center;
+    justify-self: center;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.219) 0px 50px 50px 7px;
 }
 
