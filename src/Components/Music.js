@@ -36,24 +36,24 @@ const data = [
         information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. Our description was to make the music happy and fun, like “Kirby-music” with synths.",
         image: require("../music/Myllermadness.png").default
     },
-    {
-        title: "Muddle’s theme",
-        file: require("../music/Muddlestheme.wav").default,
-        information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. Our description was to make the music happy and fun, like “Kirby-music” with synths.",
-        image: require("../music/Myllermadness.png").default
-    },
-    {
-        title: "Hold your flappy parts",
-        file: require("../music/Holdyourflappyparts.wav").default,
-        information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. Our description was to make the music happy and fun, like “Kirby-music” with synths.",
-        image: require("../music/Myllermadness.png").default
-    },
-    {
-        title: "Myller madness",
-        file: require("../music/Myllermadness.wav").default,
-        information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. Our description was to make the music happy and fun, like “Kirby-music” with synths. This track was made together with David Åkebrand.",
-        image: require("../music/Myllermadness.png").default
-    },
+    // {
+    //     title: "Muddle’s theme",
+    //     file: require("../music/Muddlestheme.wav").default,
+    //     information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. Our description was to make the music happy and fun, like “Kirby-music” with synths.",
+    //     image: require("../music/Myllermadness.png").default
+    // },
+    // {
+    //     title: "Hold your flappy parts",
+    //     file: require("../music/Holdyourflappyparts.wav").default,
+    //     information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. Our description was to make the music happy and fun, like “Kirby-music” with synths.",
+    //     image: require("../music/Myllermadness.png").default
+    // },
+    // {
+    //     title: "Myller madness",
+    //     file: require("../music/Myllermadness.wav").default,
+    //     information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. Our description was to make the music happy and fun, like “Kirby-music” with synths. This track was made together with David Åkebrand.",
+    //     image: require("../music/Myllermadness.png").default
+    // },
     {
         title: "Introscene",
         file: require("../music/Introscene.wav").default,
