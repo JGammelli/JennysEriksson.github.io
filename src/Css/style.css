@@ -19,10 +19,11 @@
 
 #profileSection h1, #profileSection h2, #profileSection p {
   color: black;
+  font-weight: 100;
 }
 
 #portfolieSection {
-  background: url("../Images/background.png");
+  background-image: url("../Images/background.png");
   -webkit-box-ordinal-group: 4;
       -ms-flex-order: 3;
           order: 3;
@@ -109,6 +110,7 @@
       grid-template-columns: repeat(8, 20em);
   -ms-grid-rows: (10em)[20];
       grid-template-rows: repeat(20, 10em);
+  color: #f1f1f1;
 }
 
 #aboutSection {
@@ -123,6 +125,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+}
+
+#aboutSection p {
+  font-weight: 900;
+}
+
+#aboutSection h3 {
+  font-size: 1.7em;
 }
 
 #aboutContainer {
@@ -369,7 +379,8 @@
   grid-column-end: 3;
   -ms-grid-row: 2;
       grid-row-start: 2;
-  font-size: 1.3em;
+  font-size: 1.4em;
+  font-weight: 900;
 }
 
 .span {
@@ -406,13 +417,9 @@
 body {
   overflow-x: hidden;
   font-family: 'Playfair Display', serif;
-  color: #f3f3f3;
+  color: #080808;
   letter-spacing: 0.2em;
   line-height: 2.5em;
-}
-
-body h1, body h2, body h4, body p {
-  font-weight: 100;
 }
 
 body, html {

@@ -23,4 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 #Jennys music
-/src/music/Triquetra.mov
+/src/music/ignore
+
