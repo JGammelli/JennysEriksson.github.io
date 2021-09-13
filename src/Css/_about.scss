@@ -34,19 +34,19 @@
     }
     
     h3{
-        font-size: 1.7em;
+        font-size: 1.3em;
     }
 }
 
 #aboutContainer{
     display: grid;
     grid-template-columns: repeat(10, 10%);
-    grid-template-rows: repeat(21, 10em);
+    grid-template-rows: repeat(21, 20vh);
     p{
-        font-size: 1.3em;
+        font-size: 1em;
     }
     h1{
-        font-size: 2em;
+        font-size: 1.6em;
         grid-column-start: 2;
         grid-column-end: 4;
         grid-row-start: 3;

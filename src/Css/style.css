@@ -132,7 +132,7 @@
 }
 
 #aboutSection h3 {
-  font-size: 1.7em;
+  font-size: 1.3em;
 }
 
 #aboutContainer {
@@ -140,16 +140,16 @@
   display: grid;
   -ms-grid-columns: (10%)[10];
       grid-template-columns: repeat(10, 10%);
-  -ms-grid-rows: (10em)[21];
-      grid-template-rows: repeat(21, 10em);
+  -ms-grid-rows: (20vh)[21];
+      grid-template-rows: repeat(21, 20vh);
 }
 
 #aboutContainer p {
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 #aboutContainer h1 {
-  font-size: 2em;
+  font-size: 1.6em;
   -ms-grid-column: 2;
       grid-column-start: 2;
   grid-column-end: 4;
@@ -427,7 +427,7 @@
   grid-column-end: 3;
   -ms-grid-row: 2;
       grid-row-start: 2;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 900;
 }
 
