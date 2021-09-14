@@ -11,8 +11,8 @@
     background-position: center;
 
     display: grid;
-    grid-template-columns: repeat(8, 20em);
-    grid-template-rows: repeat(20, 10em);
+    grid-template-columns: repeat(10, 10vw);
+    grid-template-rows: repeat(20, 5%);
 
     color: $white;
     
@@ -23,12 +23,14 @@
     order: 4;
     background: url("../Images/background.png");
     width: 100vw;
+    height: fit-content;
     position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    padding-bottom: 15em;
     p {
         font-weight: 900;
     }
@@ -38,31 +40,10 @@
     }
 }
 
-#aboutContainer{
-    display: grid;
-    grid-template-columns: repeat(10, 10%);
-    grid-template-rows: repeat(21, 20vh);
-    p{
-        font-size: 1em;
-    }
-    h1{
-        font-size: 1.6em;
-        grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row-start: 3;
-        grid-row-end: 3;
-        align-self: center;
-        justify-self: center;
-        background: $black;
-        color: $white;
-
-    }
-    
-}
 .aboutName{
     position: absolute;
     grid-column-start:3;
-    grid-row-start: 3;
+    grid-row-start: 8;
     h1{
         font-size: 3.5em;
         margin-bottom: 0.5em;
@@ -76,6 +57,29 @@
     }
     
 }
+
+#aboutContainer{
+    display: grid;
+    grid-template-columns: repeat(10, 10vw);
+    grid-template-rows: repeat(20, 5%);
+    p{
+        font-size: 1em;
+    }
+    h1{
+        font-size: 1.6em;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        align-self: center;
+        justify-self: center;
+        background: $black;
+        color: $white;
+
+    }
+    
+}
+
 
 #aboutBox{
     grid-column-start: 2;
@@ -96,23 +100,20 @@
 .educationBox2{
     grid-column-start: 2;
     grid-column-end: 7;
-    grid-row-start: 11;
-    grid-row-end:11;
+    grid-row-start: 12;
 
 }
 
 .educationBox3{
     grid-column-start: 4;
     grid-column-end: 10;
-    grid-row-start: 15;
-    grid-row-end: 15;
+    grid-row-start: 16;
    
 }
 .educationBox4{
     grid-column-start: 2;
     grid-column-end: 8;
-    grid-row-start: 19;
-    grid-row-end: 19;
+    grid-row-start: 20;
    
 }
 
@@ -121,7 +122,76 @@
     color: $white;
     align-self: center;
     justify-self: center;
-    padding: 1em;
+    padding: 0.5em;
     box-shadow: rgba(0, 0, 0, 0.219) 0px 50px 50px 7px;
+}
+
+.educationBox4,.educationBox3,.educationBox2,.educationBox,#aboutBox{
+    margin: 5em;
+}
+
+//for smaller devices
+
+@media screen and (max-width: 1024px){
+
+
+    
+#aboutSection{
+    p {
+        font-size: 0.6em;
+    }
+    
+    h3{
+        font-size: 0.8em;
+    }
+    padding-bottom: 0;
+}
+
+
+    #aboutContainer{
+        display: grid;
+        grid-template-columns: repeat(10, 10%);
+        grid-template-rows: repeat(30, 10em);
+        h1{
+            grid-column-start: 2;
+            grid-column-end: 10;
+            grid-row-start: 2;
+        }
+        
+    }
+    #aboutBox{
+        grid-column-start: 2;
+        grid-column-end:10 ;
+        grid-row-start: 5;
+    
+    }
+    
+    .educationBox{
+        grid-column-start: 2;
+        grid-column-end: 10;
+        grid-row-start: 12;
+    
+    }
+    
+    .educationBox2{
+        grid-column-start: 2;
+        grid-column-end: 10;
+        grid-row-start: 14;
+    
+    }
+    
+    .educationBox3{
+        grid-column-start: 2;
+        grid-column-end: 10;
+        grid-row-start: 20;
+       
+    }
+    .educationBox4{
+        grid-column-start: 2;
+        grid-column-end: 10;
+        grid-row-start: 26;
+       
+    }
+    
 }
 

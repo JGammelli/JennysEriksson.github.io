@@ -10,7 +10,7 @@
     background-position: center;
     display: grid;
     grid-template-columns: repeat(8, 20em);
-    grid-template-rows: repeat(20, 10em);
+    grid-template-rows: repeat(9, 10em);
     h1,h2,p{
         color: $black;
         font-weight: 100;
@@ -27,8 +27,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    // background-size: 100% auto;
-    // position: relative;
+    overflow: hidden;
 }
 
 .portfolieName{
@@ -48,4 +47,3 @@
     }
 
 }
-

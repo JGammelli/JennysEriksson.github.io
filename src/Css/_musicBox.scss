@@ -2,7 +2,7 @@
 .musicContainer{
     display: grid;
     grid-template-columns: 10em 40em auto;
-    grid-template-rows: 5em 20em;
+    grid-template-rows: 5em auto;
     padding: 5em;
     margin-bottom: 20em;
     margin-top: 20em;
@@ -33,4 +33,51 @@
     background-color: $black;
     color: $white;
     box-shadow: rgba(0, 0, 0, 0.219) 0px 50px 50px 7px;
+}
+
+
+@media screen and (max-width: 1024px){
+    .musicContainer{
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 5em 20em 5em 5em auto;
+        h2{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            align-self: end;
+            font-size: 1.4em;  
+        }
+        video{
+            grid-column-start: 2;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            width:600px;
+            max-height:400px;
+            align-self: center;
+            justify-self: center;
+        }
+        p{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 5;
+            font-size: 0.7em;
+        }
+
+    }
+    
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .musicContainer{
+
+        h2{
+
+            font-size: 1.8em;    
+        }
+
+        p{
+            font-size: 1em;
+        }
+
+    }
 }

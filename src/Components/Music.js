@@ -27,37 +27,37 @@ const data = [
     {
         title: "Array’s theme",
         file: require("../music/Arraystheme.wav").default,
-        information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. Our description was to make the music happy and fun, like “Kirby-music” with synths.",
+        information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. Our description was to make the music happy and fun, like “Kirby-music” with synths. Artwork was drawn by Mio Jernström.",
         image: require("../music/Myllermadness.png").default
     },
     {
         title: "Get that Cow!",
         file: require("../music/GetthatCow.wav").default,
-        information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. Our description was to make the music happy and fun, like “Kirby-music” with synths.",
+        information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. Our description was to make the music happy and fun, like “Kirby-music” with synths. Artwork was drawn by Mio Jernström.",
         image: require("../music/Myllermadness.png").default
     },
     // {
     //     title: "Muddle’s theme",
     //     file: require("../music/Muddlestheme.wav").default,
-    //     information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. Our description was to make the music happy and fun, like “Kirby-music” with synths.",
+    //     information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. Our description was to make the music happy and fun, like “Kirby-music” with synths. Artwork was drawn by Mio Jernström.",
     //     image: require("../music/Myllermadness.png").default
     // },
     // {
     //     title: "Hold your flappy parts",
     //     file: require("../music/Holdyourflappyparts.wav").default,
-    //     information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. Our description was to make the music happy and fun, like “Kirby-music” with synths.",
+    //     information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. Our description was to make the music happy and fun, like “Kirby-music” with synths. Artwork was drawn by Mio Jernström.",
     //     image: require("../music/Myllermadness.png").default
     // },
     // {
     //     title: "Myller madness",
     //     file: require("../music/Myllermadness.wav").default,
-    //     information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. Our description was to make the music happy and fun, like “Kirby-music” with synths. This track was made together with David Åkebrand.",
+    //     information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. Our description was to make the music happy and fun, like “Kirby-music” with synths. This track was made together with David Åkebrand. Artwork was drawn by Mio Jernström.",
     //     image: require("../music/Myllermadness.png").default
     // },
     {
         title: "Introscene",
         file: require("../music/Introscene.wav").default,
-        information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. This specific track was made together with a powerpoint-like-movie, with a painting and text under, telling the story of the Aliens journey, which lead them to Vimmelriket. Sounds were made by Ellis Börjesson, and the music was made by me.",
+        information: "This track was made for the game “Vimmel”, which was our second Game Project at the University of Skövde. This specific track was made together with a powerpoint-like-movie, with a painting and text under, telling the story of the Aliens journey, which lead them to Vimmelriket. Sounds were made by Ellis Börjesson, and the music was made by me. Artwork was drawn by Mio Jernström.",
         image: require("../music/Myllermadness.png").default
     },
     {
