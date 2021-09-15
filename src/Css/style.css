@@ -137,7 +137,7 @@
 }
 
 #aboutSection h3 {
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 .aboutName {
@@ -176,7 +176,7 @@
 }
 
 #aboutContainer h1 {
-  font-size: 1.6em;
+  font-size: 1em;
   -ms-grid-column: 2;
       grid-column-start: 2;
   grid-column-end: 5;
