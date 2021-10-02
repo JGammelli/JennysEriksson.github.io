@@ -63,7 +63,8 @@ const data = [
     {
         title: "Nothing for glory",
         file: require("../music/Nothingforglory.wav").default,
-        information: "This song is sung by the sweet Victoria Ryan, and it is meant to be a very typical anime-intro-like song. At first I had no character or anime in mind, but as I continued writing the lyrics, I felt like it became about Jonathan Joestar from “Jojo’s bizarre adventure”."
+        information: "This song is sung by the sweet Victoria Ryan, and it is meant to be a very typical anime-intro-like song. At first I had no character or anime in mind, but as I continued writing the lyrics, I felt like it became about Jonathan Joestar from “Jojo’s bizarre adventure”. Artwork was drawn by Mio Jernström.",
+        image: require("../music/Nothingforglory.png").default
     },
     {
         title: "Fire Temple",
@@ -83,17 +84,20 @@ const data = [
         information: "As the name suggests, this track would take place in a chinese forest, where I explored how to use chinese instruments. This was a project made during my own spare time.",
         image: require("../music/Chineseforest.jpeg").default
     }
-    //,
-    // {
-    //     title: "Black Mesa trailer",
-    //     file: require("../music/BlackMesa.mov").default,
-    //     information: "This was another project made during my spare time. I wanted to try and make more digital music, instead of orchestral, and chose this trailer. I have made synth-like-music before, and I find it very experimental, like it’s a bit of an unknown territory to explore, which I absolutely love. I have not played this game, I simply picked this for it’s Sci-fi content."
-    // }
+    ,
+    {
+        title: "Black Mesa trailer",
+        file: "https://www.youtube.com/embed/SWD1k9Wo1zc",
+        //file: require("../music/BlackMesa.mov").default,
+        information: "This was another project made during my spare time. I wanted to try and make more digital music, instead of orchestral, and chose this trailer. I have made synth-like-music before, and I find it very experimental, like it’s a bit of an unknown territory to explore, which I absolutely love. I have not played this game, I simply picked this for it’s Sci-fi content."
+    }
 ]
 class Music extends React.Component{
     render(){
         return (
         data.map((music, index) =><MusicBox key={index} title={music.title} information={music.information} file={music.file} image={music.image}/>)
+        //data.map((music, index) => <YoutubeEmbed key={index} embedId={music.embedId} title={music.title} information={music.information}/>)
+        
         );
     }
 }

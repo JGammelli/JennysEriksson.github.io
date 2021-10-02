@@ -14,6 +14,15 @@
         align-self: end;
         font-size: 2em;    
     }
+    iframe{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        width:600px;
+        height:400px;
+        background: $movie;
+        align-self: center;
+    }
     video{
         grid-column-start: 1;
         grid-row-start: 1;
@@ -33,8 +42,8 @@
     background-color: $black;
     color: $white;
     box-shadow: rgba(0, 0, 0, 0.219) 0px 50px 50px 7px;
+    
 }
-
 
 @media screen and (max-width: 1024px){
     .musicContainer{
