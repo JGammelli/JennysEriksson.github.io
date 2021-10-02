@@ -2,6 +2,12 @@ import React from "react";
 import MusicBox from "./MusicBox";
 
 const data = [
+    
+    {
+        title: "Black Mesa trailer",
+        file: "https://www.youtube.com/embed/SWD1k9Wo1zc",
+        information: "This was another project made during my spare time. I wanted to try and make more digital music, instead of orchestral, and chose this trailer. I have made synth-like-music before, and I find it very experimental, like it’s a bit of an unknown territory to explore, which I absolutely love. I have not played this game, I simply picked this for it’s Sci-fi content."
+    }
     // {
     //     title: "The Maze Runner",
     //     file: require("../music/MazeRunner.mov").default,
@@ -24,6 +30,7 @@ const data = [
     //     file: require("../music/Triquetra.mov").default,
     //     information: "This movie is about a girl finding an amulett, and later realizing the power it bestows, alongside the danger that comes with it. I volunteered to make music for this movie, and the description I got was about making it sound Celtic. Sounds were made by Simon Johansson, Miriam Lewi and Rickard Söderholm. The highlights of the music from this movie are at 10.28 and 20.24."
     // },
+    ,
     {
         title: "Array’s theme",
         file: require("../music/Arraystheme.wav").default,
@@ -84,20 +91,12 @@ const data = [
         information: "As the name suggests, this track would take place in a chinese forest, where I explored how to use chinese instruments. This was a project made during my own spare time.",
         image: require("../music/Chineseforest.jpeg").default
     }
-    ,
-    {
-        title: "Black Mesa trailer",
-        file: "https://www.youtube.com/embed/SWD1k9Wo1zc",
-        //file: require("../music/BlackMesa.mov").default,
-        information: "This was another project made during my spare time. I wanted to try and make more digital music, instead of orchestral, and chose this trailer. I have made synth-like-music before, and I find it very experimental, like it’s a bit of an unknown territory to explore, which I absolutely love. I have not played this game, I simply picked this for it’s Sci-fi content."
-    }
+    
 ]
 class Music extends React.Component{
     render(){
         return (
         data.map((music, index) =><MusicBox key={index} title={music.title} information={music.information} file={music.file} image={music.image}/>)
-        //data.map((music, index) => <YoutubeEmbed key={index} embedId={music.embedId} title={music.title} information={music.information}/>)
-        
         );
     }
 }
