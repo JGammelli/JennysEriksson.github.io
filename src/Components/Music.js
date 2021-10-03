@@ -2,23 +2,24 @@ import React from "react";
 import MusicBox from "./MusicBox";
 
 const data = [
-    
-    {
-        title: "Black Mesa trailer",
-        file: "https://www.youtube.com/embed/SWD1k9Wo1zc",
-        information: "This was another project made during my spare time. I wanted to try and make more digital music, instead of orchestral, and chose this trailer. I have made synth-like-music before, and I find it very experimental, like it’s a bit of an unknown territory to explore, which I absolutely love. I have not played this game, I simply picked this for it’s Sci-fi content."
-    }
     // {
     //     title: "The Maze Runner",
     //     file: require("../music/MazeRunner.mov").default,
     //     information: "This was an assignment during the course “Musikproducentlinjen, Löftadalens Folkhögskola”, to make music for the Maze Runner-Trailer. I only made the music, not the sound, that honor goes to Ai-Ling Lee, Rob Bartlett and Doug Hemphill."
     // },
-    // {
-    //     title: "Breath of the Wild Sequel Trailer",
-    //     file: "https://www.youtube.com/watch?v=XqDy1V7PM8s&list=LL&index=26",
-    //     // file: require("../music/BreathoftheWildSequelTrailer.mov").default,
-    //     information: "This was a project during my spare time, I’ve been a Zelda-fan my entire life, and I am really excited about this game. For fun, I made music for this specific trailer, and asked my friend to make the sounds for it, called Ellis Börjesson."
-    // },
+    {
+        title: "Breath of the Wild Sequel Trailer",
+        file: "https://www.youtube.com/embed/78Dz7Gd5JgA",
+        // file: require("../music/BreathoftheWildSequelTrailer.mov").default,
+        information: "This was a project during my spare time, I’ve been a Zelda-fan my entire life, and I am really excited about this game. For fun, I made music for this specific trailer, and asked my friend to make the sounds for it, called Ellis Börjesson."
+    },
+    {
+        title: "Black Mesa trailer",
+        file: "https://www.youtube.com/embed/SWD1k9Wo1zc",
+        information: "This was another project made during my spare time. I wanted to try and make more digital music, instead of orchestral, and chose this trailer. I have made synth-like-music before, and I find it very experimental, like it’s a bit of an unknown territory to explore, which I absolutely love. I have not played this game, I simply picked this for it’s Sci-fi content."
+    },
+    
+    
     // {
     //     title: "Wonder",
     //     file: "https://www.youtube.com/watch?v=TnMWBPVONlM",
@@ -30,7 +31,11 @@ const data = [
     //     file: require("../music/Triquetra.mov").default,
     //     information: "This movie is about a girl finding an amulett, and later realizing the power it bestows, alongside the danger that comes with it. I volunteered to make music for this movie, and the description I got was about making it sound Celtic. Sounds were made by Simon Johansson, Miriam Lewi and Rickard Söderholm. The highlights of the music from this movie are at 10.28 and 20.24."
     // },
-    ,
+    {
+        title: "Horizon Forbidden West Trailer",
+        file: "https://www.youtube.com/embed/Aqnb8hqeaU0",
+        information: "This is a game whose predecessor I’ve wanted to play, only I don’t own any Playstation consoles. I don’t know how the music generally sounds in this game, I just went with what I thought fit this trailer. Credits for the sound goes to Anna Granath, together with a few sounds from “freetousesounds”."
+    },
     {
         title: "Array’s theme",
         file: require("../music/Arraystheme.wav").default,
