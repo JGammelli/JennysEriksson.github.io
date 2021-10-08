@@ -2,11 +2,11 @@ import React from "react";
 import MusicBox from "./MusicBox";
 
 const data = [
-    // {
-    //     title: "The Maze Runner",
-    //     file: require("../music/MazeRunner.mov").default,
-    //     information: "This was an assignment during the course “Musikproducentlinjen, Löftadalens Folkhögskola”, to make music for the Maze Runner-Trailer. I only made the music, not the sound, that honor goes to Ai-Ling Lee, Rob Bartlett and Doug Hemphill."
-    // },
+    {
+        title: "The Maze Runner",
+        file: "https://www.youtube.com/embed/gbYDbltegEo",
+        information: "This was an assignment during the course “Musikproducentlinjen, Löftadalens Folkhögskola”, to make music for the Maze Runner-Trailer. I later added sound (with a little help from zapsplat.com), but had to include some lines from the actual trailer."
+    },
     {
         title: "Breath of the Wild Sequel Trailer",
         file: "https://www.youtube.com/embed/78Dz7Gd5JgA",
@@ -35,6 +35,11 @@ const data = [
         title: "Horizon Forbidden West Trailer",
         file: "https://www.youtube.com/embed/Aqnb8hqeaU0",
         information: "This is a game whose predecessor I’ve wanted to play, only I don’t own any Playstation consoles. I don’t know how the music generally sounds in this game, I just went with what I thought fit this trailer. Credits for the sound goes to Anna Granath, together with a few sounds from “freetousesounds”."
+    },
+    {
+        title: "Scarlett Nexus Trailer",
+        file: "https://www.youtube.com/embed/mV2HU1E_CVs",
+        information: "This is another project made during my spare time. This time I even made most of the sounds, with a little help from zapsplat.com. Like Black Mesa trailer, I wanted to explore synths and more digital works of art, plus I’ve always had a soft spot for anime."
     },
     {
         title: "Array’s theme",
