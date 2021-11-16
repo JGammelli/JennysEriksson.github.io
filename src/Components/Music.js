@@ -18,7 +18,11 @@ const data = [
         file: "https://www.youtube.com/embed/SWD1k9Wo1zc",
         information: "This was another project made during my spare time. I wanted to try and make more digital music, instead of orchestral, and chose this trailer. I have made synth-like-music before, and I find it very experimental, like it’s a bit of an unknown territory to explore, which I absolutely love. I have not played this game, I simply picked this for it’s Sci-fi content."
     },
-    
+    {
+        title: "Valheim trailer",
+        file: "https://www.youtube.com/embed/TlqOQBB4VBY",
+        information: "Another project made during my spare time, this time I wanted to focus more on the sounds, to create more life within the trailer. Only a few sounds come from zapsplat.com, but the absolute majority comes from my own recordings."
+    },
     
     // {
     //     title: "Wonder",
