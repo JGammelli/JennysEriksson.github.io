@@ -23,6 +23,11 @@ const data = [
         file: "https://www.youtube.com/embed/TlqOQBB4VBY",
         information: "Another project made during my spare time, this time I wanted to focus more on the sounds, to create more life within the trailer. Only a few sounds come from zapsplat.com, but the absolute majority comes from my own recordings."
     },
+    {
+        title: "Returnal trailer",
+        file: "https://www.youtube.com/embed/dXNJW0d3bT4",
+        information: "With my interest in Sci-fi sounds, I chose to make music and sound for this trailer. I love the sound of futuristic guns and lasers, and especially monsters, no matter which genre. I haven’t played the game, it’s trailer was chosen for the content of Sci-fi and laser guns."
+    },
     
     // {
     //     title: "Wonder",
