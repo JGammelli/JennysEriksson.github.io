@@ -4,9 +4,9 @@ import MusicBox from "./MusicBox";
 const data = [
   {
     title: "The Maze Runner",
-    file: "https://www.youtube.com/embed/gbYDbltegEo",
+    file: "https://www.youtube.com/embed/uXmdR5OqZF8",
     information:
-      "This was an assignment during the course “Musikproducentlinjen, Löftadalens Folkhögskola”, to make music for the Maze Runner-Trailer. I later added sound (with a little help from zapsplat.com), but had to include some lines from the actual trailer.",
+      "This was an assignment during the course “Musikproducentlinjen, Löftadalens Folkhögskola”, to make music for the Maze Runner-Trailer. I chose to include some lines from the actual trailer.",
   },
   {
     title: "Breath of the Wild Sequel Trailer",
@@ -127,6 +127,8 @@ const data = [
   {
     title: "Lost",
     file: "https://www.youtube.com/embed/eLuKXboApBI",
+    information:
+      "This is an animatic I was asked to compose for, the animatic is made by Eva Åhlfeldt Karlsson, where the sounds were made by Anna Granath. This is a tale about a father who loses his child and tries to find her again.",
   },
 ];
 class Music extends React.Component {
