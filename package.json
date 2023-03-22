@@ -2,9 +2,6 @@
   "name": "jennysportfolie",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "^19.8.1"
-  },
   "dependencies": {
     "@babel/core": "^7.15.0",
     "@testing-library/jest-dom": "^5.14.1",
